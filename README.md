@@ -1,4 +1,5 @@
-# 🌦️ MEGHA-AI — Streamlit Deployment
+# 🌦️ MEGHA-AI
+## (Multi-model Ensemble for Geospatial & Hyperlocal Agentic Atmospheric Intelligence)
 
 MEGHA-AI is the self-contained Streamlit application extracted from the
 `Megha-AI-Colab-Fixed-2.ipynb` notebook.
