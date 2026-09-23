@@ -1,11 +1,8 @@
 # 🌦️ MEGHA-AI
 ## (Multi-model Ensemble for Geospatial & Hyperlocal Agentic Atmospheric Intelligence)
 
-MEGHA-AI is the self-contained Streamlit application extracted from the
-`Megha-AI-Colab-Fixed-2.ipynb` notebook.
-
-The application does **not require Ollama**. The notebook already uses a
-built-in rule-based intent parser.
+MEGHA-AI is the self-contained Streamlit application. The application does **not require Ollama**. The application uses a
+built-in rule-based intent parser for interaction with users.
 
 ## Repository structure
 
