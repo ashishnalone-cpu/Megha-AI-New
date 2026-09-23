@@ -1,0 +1,12 @@
+Place these files beside app.py before deployment:
+
+IN.txt
+IND-DIS-732.json
+ecmwf_aifs_india_YYYYMMDD_00z_merged.nc
+
+The app automatically searches for the latest NetCDF file matching:
+ecmwf_aifs_india_*_00z_merged.nc
+
+IMPORTANT:
+Check the size of the NetCDF before pushing to GitHub. Standard GitHub
+repositories reject individual files over 100 MB.

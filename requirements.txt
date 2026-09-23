@@ -1,0 +1,12 @@
+streamlit>=1.36,<2
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+xarray>=2024.1
+netCDF4>=1.6
+geopandas>=0.14
+shapely>=2.0
+rapidfuzz>=3.0
+python-dateutil>=2.8
+groq>=0.10
