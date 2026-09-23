@@ -4,8 +4,7 @@ MEGHA-AI is the self-contained Streamlit application extracted from the
 `Megha-AI-Colab-Fixed-2.ipynb` notebook.
 
 The application does **not require Ollama**. The notebook already uses a
-built-in rule-based intent parser, with Groq LLM parsing as an optional
-enhancement.
+built-in rule-based intent parser.
 
 ## Repository structure
 
@@ -72,19 +71,6 @@ app.py
 
 7. Deploy.
 
-## Optional Groq LLM parsing
-
-The app works without a Groq key.
-
-If you want the optional LLM-based intent parser, add a Streamlit secret named:
-
-```toml
-GROQ_API_KEY = "gsk_..."
-```
-
-Do **not** put the API key directly into `app.py` or commit it to GitHub.
-
-Without the secret, the application automatically uses its built-in rule-based parser.
 
 ## Local test
 
