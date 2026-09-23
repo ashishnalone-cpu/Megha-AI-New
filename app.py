@@ -1165,13 +1165,14 @@ with st.sidebar:
     except Exception as e:
         st.error(f"Could not load NetCDF file: {e}")
     st.markdown("---")
-    '''
-    st.markdown("**Intent parser**")
-    if GROQ_API_KEY.strip():
-        st.success("Groq LLM (active)")
-    else:
-        st.info("Rule-based (no API key needed)\n\nOptionally add a free Groq key in app.py for smarter parsing.")
-    '''
+    
+    st.markdown("**Design and Developed By**")
+    st.caption(f"Ashish Alone")
+
+    st.markdown("**Guided By**")
+    st.caption(f"Prof. Anoop Kumar Shukla")
+    st.caption(f"Dr D. R. Pattanaik")
+    st.caption(f"Prof. Gopal Nandan")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
